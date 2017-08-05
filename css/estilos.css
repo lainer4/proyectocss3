@@ -19,7 +19,14 @@ div .principal{
   text-shadow: 2px 2px 2px #02010a;
   border-radius: 10px 10px 0px 0px;
   color: white;
-  font-size: 3vw
+  font-size: 3vw;
+  animation: slidein 0.5s;
+}
+@-webkit-keyframes slidein {
+  0%{margin-top: 150%};
+  60%{margin-top: -5%};
+  100%{margin-top: 0%};
+
 }
 div .central{
 background-color: #82c3a6;
