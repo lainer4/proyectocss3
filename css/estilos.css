@@ -13,10 +13,10 @@ div .principal{
   width: 900px;
   height: 900px;
 }
-
-
-
-
+#link{
+  float: right;
+color: #ffffff;
+}
 .cabecera{
   width: 100%;
   height: 80px;
@@ -31,7 +31,6 @@ div .principal{
   0%{margin-top: 150%};
   60%{margin-top: -5%};
   100%{margin-top: 0%};
-
 }
 div .central{
 background-color: #82c3a6;
@@ -41,10 +40,6 @@ height: 600px;
 transform: translate(11%, 7%);
   width: 80%;
   height: 90%;
-}
-#link{
-  float: right;
-  color: white;
 }
 
 div .dos{
@@ -67,7 +62,6 @@ border: 1px;
   width: 80%;
   height: 80%;
   margin: 7%;
-
   transition: translate,box-shadow,1s;
 }
 #ima2:hover{
@@ -99,7 +93,6 @@ text-align: left;
 }
 #sec1{
 width: 25%;
-
 }
 #sec2{
 width: 25%;
@@ -126,17 +119,14 @@ display: flex;
   border: 1px;
 }
 #sep{
-
   width: 33%;
   height: 100%;
 }
 #sep1{
-
   width: 33%;
   height: 100%;
 }
 #sep2{
-
   width: 33%;
   height: 100%;
 }
@@ -152,7 +142,12 @@ display: flex;
   width: 80%;
   height: 40%;
 }
-
+#im3{
+  -webkit-filter:grayscale(100%);
+  margin: 7% 13%;
+  width: 80%;
+  height: 40%;
+}
 #im4{
   margin: 7% 13%;
   width: 80%;
@@ -164,18 +159,28 @@ display: flex;
   width: 80%;
   height: 40%;
 }
+#im6{
+  -webkit-filter:grayscale(100%);
+  margin: 7% 13%;
+  width: 80%;
+  height: 40%;
+}
 @media(max-width: 900px){
-
-.cabecera{text-align: center;font-size: 4vw;}
+.cabecera{text-align: center;font-size: 30px;}
 #link{font-size: 4vw;text-align: center;width: 100%;height:100px;}
 div .central{width: 100%;height:400px}
-#ima{ order: 2;width: 80%;height:300px;}
+#ima{ order: 2;width: 80%;height:300px;margin-top: -3%}
 div .dos{width: 100%;height:650px}
 #sec{  order: 3;width: 100%;height:300px;}
 #se1{  order: 4;width: 100%;height:300px;}
-footer div  {width: 100%;height: 500px;display: block;}
- #sec1{ order: 5;width: 100%;height: 150px;}
- #sec2{ order: 6;width: 100%;height: 100px;}
- #sec3{ order: 7;width: 100%;height: 100px;}
- #sec4{ order: 8;width: 100%;height: 100px;}
+footer div  {width: 100%;height: 80%;font-size: 6vw;display: block;}
+ #sec1{ order: 5;width: 100%;height: 20%;}
+ #sec2{ order: 6;width: 100%;height: 20%;}
+ #sec3{ order: 7;width: 100%;height: 20%;}
+ #sec4{ order: 8;width: 100%;height: 20%;}
+
+div .pai{width: 100%;height: 120%;display: block;}
+#sep{width: 93%;height: 28%;margin-bottom: 20%;margin-right: 7%;}
+#sep1{width: 93%;height: 28%;margin-bottom: 5%;margin-right: 7%;}
+#sep2{width: 93%;height: 28%;margin-bottom: 5%;margin-right: 7%;}
 }
